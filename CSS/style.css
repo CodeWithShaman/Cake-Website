@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image:  linear-gradient(to left, #68686888, #75135d52),
+    url('../Image/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 600;
+}
+.cakes{
+    color: #F32809;
+}
+.nav-link{
+    color: whitesmoke;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.cake-nav:hover{
+    color: #F32809;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-item{
+    margin: 0px 6px;
+}
+.text-section{
+    color: whitesmoke;
+    text-align: center;
+}
+.text-section h1{
+    font-size: 3.5rem;
+    font-family: 'Saira Condensed', sans-serif;
+    word-spacing: 5px;
+    font-weight: 400;
+}
+.text-section p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.our-cakes{
+    background-color: #F32809;
+    color: #F5F5F5;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: none; 
+}
+.our-cakes:hover{
+    background: transparent;
+    border: 1px solid #F32809;
+    color: #F32809;
+}
+.hero-section{
+    margin-top: 80px;
+}
+
+/* about section */
+.about-us{
+    margin: 100px 0px;
+}
+.about-text{
+    display: flex;
+    align-items: center;
+}
+.about-h1 h1{
+    color: #7c4f7c;
+    font-family: 'Caveat', cursive;
+    font-size: 4.5rem;
+    margin: 0;
+}
+.about-h1 p{
+    font-family: 'Caveat', cursive;
+    color: #F32809;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.about-p{
+    color: rgb(163, 163, 163);
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.about-link{
+    background-color: #F32809;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 25px;
+}
+.about-link:hover{
+    background: transparent;
+    border: 1px solid #F32809;
+    color: #F32809;
+    font-weight: 600;
+}
+/* about section end */
+
+/* cake section */
+.cakes{
+    margin: 80px 0px;
+}
+.cake-txt h1{
+    color: #7c4f7c;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.cake-txt p{
+    font-family: 'Caveat', cursive;
+    color: #F32809;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.card-body h5{
+    color: #F32809;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.card-body p{
+    color: #a3a3a3;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.btn-add button{
+    background-color: #F32809;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 8px 25px;
+    border: none;
+}
+.btn-add button:hover{
+    background: transparent;
+    border: 1px solid #F32809;
+    color: #F32809;
+    font-weight: 600;
+}
+.cake-hr{
+    width: 3vw;
+    border: none;
+    border-bottom: 2px solid #800080;
+}
+.cake-img{
+    transform: rotate(-5deg);
+    transition: 1s;
+}
+.cake-img:hover{
+    transform: rotate(8deg);
+}
+/* cake section end */
+
+/* contact us start */
+.contact{
+    margin-top: 100px;
+}
+.con-form{
+    padding: 30px;
+}
+.personal{
+    font-family: 'Saira Condensed', sans-serif;
+    padding-left: 30px;
+    color: #F32809;
+    letter-spacing: 1px;
+}
+.form-label{
+    color: #F32809;
+    font-weight: 500;
+}
+.form-control{
+    border: 1px solid #F32809;
+}
+.form-control::placeholder{
+    font-size: 12px;
+    color: #afafaf;
+}
+.form-select{
+    border-color: #F32809;
+}
+.form-select option{
+    color: #afafaf;
+}
+.form-check-label{
+    color: #F32809;
+    font-weight: 500;
+}
+.btn{
+    background-color: #F32809;
+    color: whitesmoke;
+    padding: 8px 40px;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #F32809;
+    color: #F32809;
+    font-weight: 600;
+}
+.contact-form{
+    margin-top: 50px;
+}
+.con-img{
+    border-radius: 0px 5px 5px 0px;
+}
+/* contact us end */
+
+/* footer */
+.copy p{
+    margin:0;
+    background-color: #F32809;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #f5f5f5;
+}
+.copy{
+    margin-top: 10%;
+}
